@@ -16,5 +16,6 @@ class CompB_Class extends React.Component{
         )
     }
 }
-
 export default CompB_Class;
+
+
