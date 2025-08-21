@@ -8,7 +8,11 @@ let App=()=>{
     <h3> App component</h3>
     <CompA/>
     {/* {<CompB/>} */}
-    <CompB_Class/>
+    <CompB_Class
+    eid={101}
+        ename="Rahul"
+        details={{ emp_Sal: 45000, loc: ["Wayanad", "New Delhi", "Kerala"] }}
+        avail={true}/>
   </div>
   )
 }
