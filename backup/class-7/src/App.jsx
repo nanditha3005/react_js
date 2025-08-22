@@ -1,12 +1,14 @@
-import React from "react";
-import Users from "./Users/Users";
-import navbar from "./navbar/Navbar";
+
+
+import Product from "./StateEx2/Product/Product";
+import Message from "./StateEx2/Message/Message";
+import Test from "./StateEx2/Message/Test";
 let App=()=>{
-     
+
   return <div>
-    <h3> App component</h3>
-     <navbar/>
-     <Users/>
+    <h3>App Component</h3>
+    <hr />
+    <Product/>
   </div>
 }
 export default App;

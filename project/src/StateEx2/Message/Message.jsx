@@ -1,0 +1,23 @@
+import React,{useState} from 'react';
+const Message=()=>{
+      let [msg,setMsg]=useState("Hello...");
+
+      let gmHandler=()=>{
+        setMsg("GoodMorning")
+      }
+      let gnHandler=()=>{
+        setMsg("Good Night")
+      }
+
+
+    return  <React.Fragment>
+               <h3>Message Component</h3>
+               <h3>Message Value:{msg}</h3>
+               <button onClick={gmHandler}>GM</button>
+               <button onClick={gnHandler}>GN</button>
+
+            </React.Fragment> 
+}
+export default Message;
+
+
