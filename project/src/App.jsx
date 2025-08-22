@@ -1,12 +1,12 @@
 import React from "react";
-//import Message from "./Message/Message";
- import MessageForceUpdate from "./Message/MessageForceUpdate";    
+//import Message from "./stateEX1/Message/Messge";
+import MessageForceUpdate from "./StateEx1/Message/MessageForceUpdate"    
 
 let App=()=>{
      
   return( <div>
     <h3> App component</h3>
-    {/* <Message/> */}
+    {/* <Messge/> */}
     <MessageForceUpdate/>
   </div>
   )
