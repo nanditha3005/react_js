@@ -1,12 +1,10 @@
-import React from "react";
-import Users from "./Users/Users";
-import navbar from "./navbar/Navbar";
+import Message from "./EventBinding/Messages/Message";
 let App=()=>{
-     
   return <div>
-    <h3> App component</h3>
-     <navbar/>
-     <Users/>
+    <h3>App Component</h3>
+    <hr />
+    <Message/>
   </div>
+
 }
 export default App;
