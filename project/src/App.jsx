@@ -1,9 +1,9 @@
-import Axios from './Axios/Axios'
+import Login from "./FormHandling/login2";
 let App=()=>{
   return <div>
     <h3>App Component</h3>
     <hr />
-    <Axios/>
+    <Login/>
   </div>
 
 }
