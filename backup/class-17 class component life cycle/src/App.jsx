@@ -10,12 +10,12 @@ let App=()=>{
             <Router>
                 <Navbar/>
                 <Routes>
-                    <Route path="/"  element={<Home/>}/>
-                    <Route path="/index"  element={<Home/>}/>
-                    <Route path="/Employees" element={<Employees/>}/>
-                    <Route path="/Login" element={<Login/>}/>
+                    
+                    <Route path="/Home"  element={<Home/>}/>
+                    <Route path="/Employees"  element={<Employees/>}/>
+                    <Route path="/Login"  element={<Login/>}/>
                    
-                    <Route path="*" element={<h3 style={mystyles}>404 - Page Not Found</h3>} />
+                    
                 </Routes>
             </Router>
         </div>

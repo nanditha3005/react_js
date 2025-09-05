@@ -1,9 +1,0 @@
-import React from "react";
-
-let Contact=()=>{
-    return (<div>
-        <h3>Contact Component</h3>
-    </div>
-    )
-}
-export default Contact

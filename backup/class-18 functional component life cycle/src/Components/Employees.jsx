@@ -1,13 +1,13 @@
 const { useEffect } = require("react")
 
-let Home= ()=>{
+let Employees= ()=>{
     
     useEffect(()=>{
         console.log("after return statement")
     },[]);
 
     return <div>
-                <h3>Home Component</h3>
+                <h3>Employees Component</h3>
             </div>
 }
-export default Home;
+export default Employees;
